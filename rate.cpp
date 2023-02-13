@@ -3,9 +3,8 @@
 using namespace std;
 int main()
 {
-    double prezzo;
+    double prezzo, prezzoAgg;
     int rate;
-    double prezzoAgg;
     cout << "Quanto costa il prodotto che vuoi acquistare? \n";
     cin >> prezzo;
     cout << "In quante rate lo vuoi pagare? \n";

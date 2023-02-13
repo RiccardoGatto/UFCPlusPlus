@@ -12,6 +12,6 @@ int sommaInteri(int x)
 }
 int main()
 {
-    int mioNumero = 1;
+    int mioNumero = 100;
     cout << "La somma di tutti i numeri da 1 a " << mioNumero << " e' " << sommaInteri(mioNumero);
 }

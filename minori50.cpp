@@ -3,9 +3,8 @@
 using namespace std;
 int main()
 {
-    int n;
+    int n, a;
     int cont = 0;
-    int a;
     cout << "Quanti numeri vuoi inserire? ";
     cin >> n;
     for (int i = 1; i <= n; i++)

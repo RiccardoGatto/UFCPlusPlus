@@ -4,9 +4,7 @@
 using namespace std;
 int main()
 {
-    double a;
-    double b;
-    double c;
+    double a, b, c;
     cout << "Inserisci A: \n";
     cin >> a;
     cout << "Inserisci B: \n";

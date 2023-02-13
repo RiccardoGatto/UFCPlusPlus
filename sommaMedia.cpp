@@ -2,9 +2,8 @@
 using namespace std;
 int main()
 {
-    double num;
+    double num, totale;
     int n;
-    double totale;
     cout << "Quanti numeri vuoi inserire? ";
     cin >> num;
     for (int i = 0; i < num; i++)

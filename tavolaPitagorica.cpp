@@ -3,14 +3,16 @@
 using namespace std;
 void stampaTavola(int numero)
 {
-    int x, y = 0;
+    int x = 0;
+    int y = 0;
     for (int i = 0; i <= numero; i++)
-    {
-        cout << "\e[4m"
-             << "\t" << i;
-    }
-    cout << "\e[0m"<< "\n"
-         << "\n";
+     {
+         cout << "\e[4m"
+              << "\t" << i;
+     }
+     cout << "\e[0m"
+          << "\n"
+          << "\n";
     while (x <= numero)
     {
         cout << x << "| ";
@@ -24,8 +26,9 @@ void stampaTavola(int numero)
         x++;
     }
 }
+
 int main()
 {
-    int mioNumero = 8;
+    int mioNumero = 7;
     stampaTavola(mioNumero);
 }

@@ -3,9 +3,7 @@
 using namespace std;
 int main()
 {
-    int a;
-    int b;
-    int c;
+    int a, b, c;
     cout << "Inserisci A: \n";
     cin >> a;
     cout << "Inserisci B: \n";

@@ -3,16 +3,14 @@
 using namespace std;
 int main()
 {
-    int min;
-    int max;
-    int n;
-    int count=0;
+    int min, max, n;
+    int count = 0;
     cout << "Quanti numeri vuoi inserire? ";
     cin >> count;
     cout << "Inserisci il 1 numero: ";
     cin >> n;
-    max=n;
-    min=n;
+    max = n;
+    min = n;
     for (int i = 2; i <= count; i++)
     {
         cout << "Inserisci il " << i << " numero: ";
@@ -20,8 +18,8 @@ int main()
         if (n < min)
         {
             min = n;
-        }  
-        if (n > max)
+        }
+        else
         {
             max = n;
         }

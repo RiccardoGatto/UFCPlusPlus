@@ -3,9 +3,7 @@
 using namespace std;
 int main()
 {
-    int n;
-    int a;
-    int b;
+    int n, a, b;
     int cont=0;
     cout << "Quante coppie vuoi inserire? ";
     cin >> n;
@@ -20,5 +18,5 @@ int main()
             cont++;
         }
     }
-    cout << "Il numero di coppie uguali o consecutive e' " << cont;
+    cout << "\n" << "Il numero di coppie uguali o consecutive e' " << cont;
 }

@@ -10,7 +10,6 @@ int main()
     {
         cout << "Cheers! Buon divertimento al bar!\n";
     }
-
     else
     {
         cout << "Mi dispiace, sei troppo giovane per bere birra\n";

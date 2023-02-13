@@ -3,7 +3,7 @@ using namespace std;
 void vediPari(int x)
 {
     int i = 0;
-    cout << "I numeri pari da 0 a 20 sono:\n";
+    cout << "I numeri pari da 0 a " << x << " sono:\n";
     do
     {
         cout << i << " ";
@@ -12,6 +12,6 @@ void vediPari(int x)
 }
 int main()
 {
-    int mioNumero=20;
+    int mioNumero=65;
     vediPari(mioNumero);
 }
