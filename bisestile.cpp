@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout << "Iserisci un anno: \n";
+    cout << "Inserisci un anno: \n";
     int anno;
     cin >> anno;
     if ((anno % 4 == 0 and anno % 100 != 0) or (anno % 400 == 0))
