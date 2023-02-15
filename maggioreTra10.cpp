@@ -22,5 +22,5 @@ int main()
 {
     cout << "Dati 10 numeri inseriti questo programma restituisce il piu' grande\n\n";
     int massimo= maggiore();
-    cout << "Il piu' grande tra tutti i numeri inseriti e': " << massimo;
+    cout << "\nIl piu' grande tra tutti i numeri inseriti e': " << massimo;
 }
