@@ -12,7 +12,7 @@ int sommaInteri(int n)
     {
         while ((somma + i) <= n)
         {
-            somma = somma + i;
+            somma += i;
             i++;
         }
         return i-1;
@@ -21,7 +21,7 @@ int sommaInteri(int n)
 
 int main()
 {
-    int numero = 30;
+    int numero = 2;
     int totN = sommaInteri(numero);
     cout << totN;
 }
