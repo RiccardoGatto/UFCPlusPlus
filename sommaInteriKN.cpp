@@ -3,25 +3,24 @@ using namespace std;
 int sommaInteri(int n)
 {
     int somma = 0;
-    int i = 1;
-    if ((n == 0) or (n == 1) or (n == 2))
+    int i = 0;
+    if ((n == 1) or (n == 2))
     {
         return 0;
     }
     else
     {
-        while ((somma + i) <= n)
+        while (somma <= n)
         {
-            somma += i;
             i++;
+            somma += i;
         }
         return i-1;
     }
 }
-
 int main()
 {
-    int numero = 2;
+    int numero = 20;
     int totN = sommaInteri(numero);
     cout << totN;
 }

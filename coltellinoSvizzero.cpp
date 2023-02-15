@@ -185,10 +185,10 @@ int main()
     cout << "\n\n";
     stampaNome("Riccardo");
     cout << "\n\n";
-    string comp1 = isBetween(4, 5, 6) ? "E' compmreso" : "Non e' compreso";
+    string comp1 = isBetween(4, 5, 6) ? "E' compreso" : "Non e' compreso";
     cout << comp1;
     cout << "\n\n";
-    string comp2 = isBetween(4, 6, 5) ? "E' compmreso" : "Non e' compreso";
+    string comp2 = isBetween(4, 6, 5) ? "E' compreso" : "Non e' compreso";
     cout << comp2;
     cout << "\n\n";
     equazione(4, 5, 6);
