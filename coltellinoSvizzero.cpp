@@ -7,14 +7,8 @@ using namespace std;
 // output: il più grande tra i due
 int piuGrande(int x, int y)
 {
-    if (x < y)
-    {
-        return y;
-    }
-    else
-    {
-        return x;
-    }
+    int risultato = (x < y) ? y : x;
+    return risultato;
 }
 // Questa funzione controlla se un numero è pari
 // input: un numero intero
@@ -35,14 +29,8 @@ double costoTotale(double prezzo, int interesse)
 // output: scrive Cheers! Buon divertimento al bar! OPPURE Mi dispiace, sei troppo giovane per bere birra
 void buttaFuori(int eta)
 {
-    if (eta >= 18)
-    {
-        cout << "Cheers! Buon divertimento al bar!\n";
-    }
-    else
-    {
-        cout << "Mi dispiace, sei troppo giovane per bere birra\n";
-    }
+    string permesso = (eta >= 18) ? "Cheers! Buon divertimento al bar!" : "Mi dispiace, sei troppo giovane per bere birra";
+    cout << permesso;
 }
 // Questa funzione stampa in ordine decrescente tre numeri inseriti
 // input: tre interi
@@ -197,23 +185,23 @@ int main()
     cout << "\n\n";
     stampaNome("Riccardo");
     cout << "\n\n";
-    string comp1= isBetween(4,5,6) ? "E' compmreso" : "Non e' compreso";
+    string comp1 = isBetween(4, 5, 6) ? "E' compmreso" : "Non e' compreso";
     cout << comp1;
     cout << "\n\n";
-    string comp2= isBetween(4,6,5) ? "E' compmreso" : "Non e' compreso";
+    string comp2 = isBetween(4, 6, 5) ? "E' compmreso" : "Non e' compreso";
     cout << comp2;
     cout << "\n\n";
     equazione(4, 5, 6);
     cout << "\n\n";
     equazione(1, -6, 5);
     cout << "\n\n";
-    string bis1= bisestile(2000) ? "E' bisestile" : "Non e' bisestile";
+    string bis1 = bisestile(2000) ? "E' bisestile" : "Non e' bisestile";
     cout << bis1;
     cout << "\n\n";
-    string bis2= bisestile(2001) ? "E' bisestile" : "Non e' bisestile";
+    string bis2 = bisestile(2001) ? "E' bisestile" : "Non e' bisestile";
     cout << bis2;
     cout << "\n\n";
-    string bis3= bisestile(1900) ? "E' bisestile" : "Non e' bisestile";
+    string bis3 = bisestile(1900) ? "E' bisestile" : "Non e' bisestile";
     cout << bis3;
     cout << "\n\n";
     stampaTabelline(7);
