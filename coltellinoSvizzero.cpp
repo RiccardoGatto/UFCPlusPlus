@@ -176,92 +176,49 @@ void stampaPari(int quanti)
 int main()
 {
     cout << piuGrande(3, 3);
-    cout << "\n";
+    cout << "\n\n";
     cout << piuGrande(5, 3);
-    cout << "\n";
+    cout << "\n\n";
     cout << piuGrande(2, 6);
-    cout << "\n";
-    if (isEven(4))
-    {
-        cout << "E' pari";
-    }
-    else
-    {
-        cout << "E' dispari";
-    }
-    cout << "\n";
-    if (isEven(45))
-    {
-        cout << "E' pari";
-    }
-    else
-    {
-        cout << "E' dispari";
-    }
-    cout << "\n";
+    cout << "\n\n";
+    string pari1 = isEven(4) ? "E' pari" : "E' dispari";
+    cout << pari1;
+    cout << "\n\n";
+    string pari2 = isEven(5) ? "E' pari" : "E' dispari";
+    cout << pari2;
+    cout << "\n\n";
     cout << costoTotale(1000, 15);
-    cout << "\n";
+    cout << "\n\n";
     buttaFuori(50);
-    cout << "\n";
+    cout << "\n\n";
     buttaFuori(15);
-    cout << "\n";
+    cout << "\n\n";
     decrescente(55, 18, 32);
-    cout << "\n";
+    cout << "\n\n";
     stampaNome("Riccardo");
-    cout << "\n";
-    if (isBetween(4, 5, 65))
-    {
-        cout << "E' compreso";
-    }
-    else
-    {
-        cout << "Non e' compreso";
-    }
-    cout << "\n";
-    if (isBetween(4, 6, 5))
-    {
-        cout << "E' compreso";
-    }
-    else
-    {
-        cout << "Non e' compreso";
-    }
-    cout << "\n";
+    cout << "\n\n";
+    string comp1= isBetween(4,5,6) ? "E' compmreso" : "Non e' compreso";
+    cout << comp1;
+    cout << "\n\n";
+    string comp2= isBetween(4,6,5) ? "E' compmreso" : "Non e' compreso";
+    cout << comp2;
+    cout << "\n\n";
     equazione(4, 5, 6);
-    cout << "\n";
+    cout << "\n\n";
     equazione(1, -6, 5);
-    cout << "\n";
-    if (bisestile(2000))
-    {
-        cout << "E' bisestile";
-    }
-    else
-    {
-        cout << "Non e' bisestile";
-    }
-    cout << "\n";
-    if (bisestile(2001))
-    {
-        cout << "E' bisestile";
-    }
-    else
-    {
-        cout << "Non e' bisestile";
-    }
-    cout << "\n";
-    if (bisestile(1700))
-    {
-        cout << "E' bisestile";
-    }
-    else
-    {
-        cout << "Non e' bisestile";
-    }
-    cout << "\n";
+    cout << "\n\n";
+    string bis1= bisestile(2000) ? "E' bisestile" : "Non e' bisestile";
+    cout << bis1;
+    cout << "\n\n";
+    string bis2= bisestile(2001) ? "E' bisestile" : "Non e' bisestile";
+    cout << bis2;
+    cout << "\n\n";
+    string bis3= bisestile(1900) ? "E' bisestile" : "Non e' bisestile";
+    cout << bis3;
+    cout << "\n\n";
     stampaTabelline(7);
-    cout << "\n";
+    cout << "\n\n";
     stampaTabelline(5, 6);
-    cout << "\n";
+    cout << "\n\n";
     stampaPari(21);
-    cout << "\n";
 }
