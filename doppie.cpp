@@ -5,7 +5,7 @@ using namespace std;
 bool ciSonoDoppie(string parola)
 {
     int y = 1;
-    while (y <= parola.length() - 1)
+    while (y < parola.length())
     {
         if (parola[y - 1] == parola[y])
         {
