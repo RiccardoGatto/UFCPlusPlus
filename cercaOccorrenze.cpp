@@ -6,7 +6,19 @@ bool occorrenza(string word, char c)
 {
     int pos = -1;
     pos = word.find(c);
-    return !(pos == -1);
+    return pos != -1;
+}
+bool occorrenza1(string word, char car)
+{
+    int i;
+    for (i = 0; i < word.length(); i++)
+    {
+        if (word[i] == car)
+        {
+            return true;
+        }
+    }
+    return false;
 }
 int main()
 {

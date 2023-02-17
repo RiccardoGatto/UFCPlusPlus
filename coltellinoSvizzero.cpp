@@ -195,6 +195,8 @@ int main()
     cout << "\n\n";
     equazione(1, -6, 5);
     cout << "\n\n";
+    equazione(1, 2, 1);
+    cout << "\n\n";
     string bis1 = bisestile(2000) ? "E' bisestile" : "Non e' bisestile";
     cout << bis1;
     cout << "\n\n";
