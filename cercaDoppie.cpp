@@ -18,7 +18,6 @@ bool ciSonoDoppie(string parola)
     }
     return false;
 }
-
 bool cercaParoleDoppie()
 {
     string parola = "";
@@ -34,9 +33,7 @@ bool cercaParoleDoppie()
     }
     return !noDoppie;
 }
-
 int main()
 {
-    string ris = cercaParoleDoppie() ? "Hai inserito parole con doppie" : "Non hai inserito parole con doppie";
-    cout << ris;
+    cout << (cercaParoleDoppie() ? "\nHai inserito parole con doppie" : "\nNon hai inserito parole con doppie");
 }

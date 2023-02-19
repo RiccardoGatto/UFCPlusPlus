@@ -28,8 +28,8 @@ void fibonacci(int n)
         {
             s = prec + prec2;
             ris += to_string(s) + " ";
-            prec2=prec;
-            prec=s;
+            prec2 = prec;
+            prec = s;
         }
     }
     cout << ris;
@@ -37,6 +37,6 @@ void fibonacci(int n)
 
 int main()
 {
-    int numero = 8;
+    int numero = 4;
     fibonacci(numero);
 }

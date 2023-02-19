@@ -24,6 +24,6 @@ int fibonacciRic(int n)
 }
 int main()
 {
-    int numero = 8;
+    int numero = 4;
     cout << "" << fibonacciRic(numero);
 }
