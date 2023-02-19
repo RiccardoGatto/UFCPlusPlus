@@ -1,9 +1,12 @@
 #include <string>
 #include <iostream>
 using namespace std;
+//Funzione ricorsiva per stabilire se una parola contiene almeno una lettera che si ripete al suo interno
+//input: una parola di tipo stringa e due indici di tipo intero: i due indici sono fissati a 0 e 1 nell'invocazione all'interno del main
+//output: vero o falso
 bool ripetuteRic(string parola, int x, int y)
 {
-    if (parola.length() == 1 or parola.length() == 0)
+    if (parola.length() < 2)
     {
         return false;
     }
