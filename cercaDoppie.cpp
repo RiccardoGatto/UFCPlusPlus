@@ -48,17 +48,17 @@ bool ciSonoDoppie(string parola)
 bool cercaParoleDoppie()
 {
     string parola = "";
-    bool noDoppie = 1;
-    while (parola != "0" and noDoppie)
+    bool doppie = false;
+    while (parola != "0" and doppie==false)
     {
         cout << "Inserisci una parola (0 per terminare l'inserimento): ";
         cin >> parola;
         if (ciSonoDoppieRic(parola, 0))
         {
-            noDoppie = 0;
+            doppie = true;
         }
     }
-    return !noDoppie;
+    return doppie;
 }
 
 int main()
